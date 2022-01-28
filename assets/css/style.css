@@ -1,0 +1,793 @@
+/* Typografi */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Quicksand:wght@300;400;500;600&display=swap');
+
+/* layout setting */
+* {
+    margin: 0;
+    padding: 0;
+    text-align: none;
+}
+
+h1 {
+    line-height: 120%;
+}
+
+h3 {
+    line-height: 120%;
+}
+
+h2 {
+    line-height: 110%;
+}
+
+p {
+    line-height: 150%;
+}
+
+/* menu navigasi */
+nav {
+    width: 1100px;
+    margin: auto;
+    height: 87px;
+}
+
+nav, .img-visi:before,
+nav, .img-visi:after {
+    content: "";
+    display: table;
+}
+nav, .img-visi:after {
+    clear: both;
+}
+nav, .img-visi {
+    clear: both;
+    zoom: 1;
+}
+
+header {
+    background-color: #15A89D;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.logo {
+    float: left;
+}
+
+.logo h2 {
+    float: right;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 11px;
+    line-height: 87px;
+}
+
+.logo img {
+    padding: 14px 0px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav ul {
+    float: right;
+    line-height: 87px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+nav a {
+    margin-left: 6px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* wave-image */
+.wave .left {
+    float: left;
+    z-index: 2;
+    position: absolute;
+}
+
+.wave .right {
+    float: right;
+    z-index: 0;
+}
+
+.wave .decor-left {
+    z-index: 0;
+    float: left;
+}
+
+.wave .decor-right {
+    position: absolute;
+    z-index: 3;
+    float: right;
+    right: 0%;
+}
+
+/* hero-image  */
+.hero-image img {
+    position: static;
+    top: 0;
+    width: 100%;
+    margin-top: 80px;
+}
+
+/* Konten sesi 1 */
+.container {
+    width: 1100px;
+    margin: auto;
+}
+
+.ctn-1 {
+    position: absolute;
+    z-index: 4;
+    float: left;
+}
+
+.ctn-1 h2 {
+    color: #15A89D;
+    font-size: 24px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    width: 506px;
+    margin-top: 20px;
+}
+
+.ctn-1 h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 56px;
+    font-weight: bold;
+    width: 646px;
+    margin-top: 12px;
+}
+
+.ctn-1 p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #645656;
+    width: 590px;
+    margin-top: 20px;
+}
+
+.video {
+    position: absolute;
+    z-index: 5;
+    left: 61%;
+    margin-top: 10px;
+}
+
+.img-visi {
+    position: absolute;
+    z-index: 5;
+    top: 180%;
+    width: 540px;
+}
+
+.img-visi img {
+    width: 220px;
+}
+
+.img-visi .goal-ilustrasi {
+    width: 400px;
+    padding-top: 76px;
+}
+
+/* Konten sesi 2 */
+.ctn-2 {
+    position: absolute;
+    z-index: 6;
+    top: 179%;
+    right: 6%;
+    box-sizing: border-box;
+    padding-left: 27px;
+}
+
+.ctn-2 h2 {
+    color: #15A89D;
+    font-size: 24px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    width: 352px;
+    padding-bottom: 10px;
+}
+
+.ctn-2 h3 {
+    font-size: 56px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    width: 640px;
+    padding-bottom: 19px;
+}
+
+.ctn-2 li {
+    font-family: 'Poppins', sans-serif;
+    color: #645656;
+    width: 559px;
+}
+
+.ctn-2 h4 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: #15A89D;
+}
+
+/* img-statistik */
+.img-statistik {
+    position: absolute;
+    width: 100%;
+    top: 310%;
+}
+
+/* tosca-bg */
+.tosca-bg {
+    position: absolute;
+    top: 380%;
+    width: 100%;
+}
+
+/* map-icon */
+.map-icon {
+    position: absolute;
+    top: 385%;
+    z-index: 6;
+    left: 30%;
+    margin-top: 30px;
+}
+
+.map h2 {
+    position: absolute;
+    top: 385%;
+    z-index: 6;
+    left: 35%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 56px;
+    color: #15A89D;
+    margin-top: 15px;
+}
+
+.g-maps {
+    width: 1160px;
+    position: absolute;
+    z-index: 7;
+    top: 400%;
+    left: 10%;
+    margin-top: 20px;
+}
+
+.g-maps iframe {
+    width: 90%;
+    height: 400px;
+    border: 0;
+    border-radius: 10px;
+}
+
+footer {
+    position: absolute;
+    top: 500%;
+}
+
+.eskul {
+    position: absolute;
+    top: 5%;
+}
+
+.box {
+    position: absolute;
+    top: 7%;
+    left: 15%;
+}
+
+.col-left {
+    float: left;
+    padding-right: 20px;
+}
+
+.col-left h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: #15A89D;
+    margin-left: 30px;
+}
+
+.col-left p {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: medium;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.col-right {
+    float: right;
+    width: 400px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+.col-right ul {
+    list-style: none;
+}
+
+.col-right img {
+    width: 26px;
+    float: left;
+    margin-right: 10px;
+}
+
+.col-right a {
+    font-family: 'Poppins', sans-serif;
+    color: #E2F5F3;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.col-right ul li {
+    float: left;
+}
+
+.col-right ul li:first-child {
+    padding-bottom: 10px;
+}
+
+.col-right ul li:last-child {
+    width: 300px;
+    padding-top: 10px;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 5%;
+    top: 85%;
+    left: 30%;
+    font-family: 'Poppins', sans-serif;
+    color: #222222;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+nav .active {
+    background-color: white;
+    color: #15A89D;
+    padding: 3px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #15A89D;
+    padding: 5px;
+    font-weight: bold;
+}
+
+/* css halaman profile */
+/* wave-image */
+.wave-profile .left {
+    float: left;
+    z-index: 2;
+    position: absolute;
+    top: 20%;
+}
+
+.wave-profile .decor-left {
+    float: left;
+    position: absolute;
+    top: 20%;
+}
+
+.wave-profile .right {
+    float: right;
+    z-index: 0;
+    right: 0%;
+    top: 20%;
+    position: absolute;
+}
+
+.wave-profile .decor-right {
+    position: absolute;
+    z-index: 3;
+    float: right;
+    right: 0%;
+    top: 20%;
+}
+
+.profile {
+    position: absolute;
+    top: 180%;
+}
+
+.ctn-profile {
+    position: absolute;
+    z-index: 4;
+    top: 20%;
+    width: 500px;
+}
+
+.ctn-profile h2 {
+    color: #ffffff;
+    font-size: 36px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    width: 506px;
+    margin-top: 20px;
+}
+
+.ctn-1 h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 56px;
+    font-weight: bold;
+    width: 646px;
+    margin-top: 12px;
+}
+
+.ctn-profile .sejarah {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    width: 590px;
+    margin-top: 20px;
+}
+
+.img-profile {
+    width: 200px;
+    position: absolute;
+    z-index: 6;
+    top: 20%;
+    left: 60%;
+    margin-top: 30px;
+}
+
+.img-profile img {
+    width: 350px;
+    margin-bottom: 30px;
+}
+
+/* css halaman visimisi */
+.info-page {
+    width: 350px;
+    height: 80px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+    top: 75%;
+    z-index: 5;
+    left: 48%;
+    border-radius: 10px;
+}
+
+.info-page p {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.info-page span {
+    color: #15A89D;
+}
+
+.ctn-visi h2 {
+    color: #000000;
+    font-size: 36px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    width: 506px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ctn-visi span {
+    color: #15A89D;
+}
+
+.ctn-visi {
+    position: absolute;
+    z-index: 4;
+    width: 500px;
+}
+
+.ctn-visi h3 {
+    color: #15A89D;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.misi {
+    margin-top: 20px;
+}
+
+.ctn-visi ul li {
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}   
+
+.ctn-struktur {
+    position: absolute;
+    z-index: 4;
+    width: 500px;
+}
+
+.ctn-sarana {
+    position: absolute;
+    z-index: 4;
+    width: 500px;
+}
+
+.sarana-img {
+    position: absolute;
+    z-index: 4;
+    width: 500px;
+    margin-top: 280px;
+}
+
+.sarana-img p {
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+.ctn-struktur h2 {
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+.ctn-struktur h3 {
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.ctn-sarana h2 {
+    font-size: 24px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    color: #15A89D;
+}
+
+.ctn-sarana h3 {
+    font-size: 40px;
+    width: 900px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.ctn-sarana span {
+    color: #15A89D;
+}
+
+.ctn-sarana p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #645656;
+    width: 690px;
+    margin-top: 20px;
+}
+
+.gb1 img {
+    width: 200px;
+}
+
+.gb1 p {
+
+    width: 200px;
+    text-align: center;
+}
+
+.gb2 {
+    float: left;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+.gb2 img {
+    width: 200px;
+}
+
+.gb2 p {
+    width: 200px;
+    text-align: center;
+}
+
+.gb1 {
+    float: left;
+    padding-left: 30px;
+}
+
+.sarana-img {
+    width: 800px;
+}
+
+.info-kontak {
+    width: 250px;
+    height: 80px;
+    margin-bottom: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    margin-right: 20px;
+}
+
+.kotak {
+    width: 260px;
+    height: 90px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    float: left;
+    margin-top: 50px;
+}
+
+.kotak .logo {
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    line-height: 55px;
+    margin-top: 20px;
+    padding-left: 12px;
+    padding-top: 2px;
+    float: left;
+    margin-left: 20px;
+    background-color: #eaeaea;
+    border-radius: 50px;
+}
+
+.kotak .logo i {
+    font-size: 28px;
+}
+
+.isi {
+    width: 150px;
+    float: left;
+    margin-left: 12px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.isi a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-weight: bold;
+}
+
+.isi .info-isi {
+    font-weight: 400;
+}
+
+.center {
+    width: 900px;
+    margin: auto; 
+}
+
+.center .kotak {
+    margin-left: 35px;
+}
+
+.info-left {
+    width: 450px;
+    margin-top: 40px;
+    float: left;
+}
+
+.info-left p {
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+.info-left h2 {
+    font-size: 18px;
+    color: #536DFE;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+.info-left h1 {
+    font-size: 40px;
+}
+
+.info-left p {
+    color: rgb(153, 153, 153);
+    font-weight: 500;
+    text-align: justify;
+}
+
+.form-right {
+    width: 600px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.form-right input {
+    width: 265px;
+    height: 30px;
+    font-size: 18px;
+    background-color: #d8d8d8;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.form-right .radio {
+    width: 40px;
+    height: 20px;
+    font-size: 18px;
+    color: #536DFE;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.form-right select {
+    width: 265px;
+    height: 40px;
+    font-size: 18px;
+    background-color: #d8d8d8;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.form-right textarea {
+    width: 580px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #dddddd;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 18px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+}
+
+.form-right button {
+    margin-top: 10px;
+    margin-left: 5px;
+    border: none;
+    background-color: #536DFE;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    padding: 12px 25px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.linear {
+    height: 100px;
+    background-image: linear-gradient(90deg, #15A89D, #E2F5F3);
+}
+
+.radial {
+    background: radial-gradient(#E2F5F3, #15A89D);
+}
+
+.video iframe {
+    border: 0px;
+    border-radius: 50px;
+}
